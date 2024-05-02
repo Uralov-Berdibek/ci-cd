@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.input-container input[type='text'] {
+  margin-right: 10px;
+  width: 60%;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.input-container button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 10px;
+  background-color: #f9f9f9;
+  border-bottom: 1px solid #ddd;
+}
+
+@media screen and (max-width: 600px) {
+  .input-container {
+    flex-direction: column;
+  }
+
+  .input-container input[type='text'] {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+}
